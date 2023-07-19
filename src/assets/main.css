@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html, body, #app {
+    width: 100%;
+    height: 100%;
+    font-family: "times", "微软雅黑 Light", "monospace";
+}
+
+#app {
+    background-color: #C0C4CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
